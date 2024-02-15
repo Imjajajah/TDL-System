@@ -46,5 +46,13 @@ namespace todolist
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Code dito then message box
+
+
+            MessageBox.Show("Task Added!");
+        }
     }
 }
