@@ -9,3 +9,4 @@ C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.exe
 C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.pdb
 C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.addTask.resources
 C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.tdlForm.resources
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.loginForm.resources
