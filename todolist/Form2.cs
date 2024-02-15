@@ -53,6 +53,9 @@ namespace todolist
 
 
             MessageBox.Show("Task Added!");
+
+            this.Close();
+            
         }
     }
 }
