@@ -1,6 +1,6 @@
 ﻿namespace todolist
 {
-    partial class Form2
+    partial class addTask
     {
         /// <summary>
         /// Required designer variable.
@@ -29,20 +29,30 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.addTaskTextbox = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel1.Controls.Add(this.addTaskTextbox);
             this.panel1.Location = new System.Drawing.Point(129, 25);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(720, 352);
             this.panel1.TabIndex = 0;
+            // 
+            // addTaskTextbox
+            // 
+            this.addTaskTextbox.Location = new System.Drawing.Point(23, 22);
+            this.addTaskTextbox.MaximumSize = new System.Drawing.Size(680, 300);
+            this.addTaskTextbox.MinimumSize = new System.Drawing.Size(680, 300);
+            this.addTaskTextbox.Name = "addTaskTextbox";
+            this.addTaskTextbox.Size = new System.Drawing.Size(680, 300);
+            this.addTaskTextbox.TabIndex = 0;
+            this.addTaskTextbox.TextChanged += new System.EventHandler(this.addTaskTextbox_TextChanged);
             // 
             // comboBox1
             // 
@@ -59,13 +69,6 @@
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(26, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(667, 22);
-            this.textBox1.TabIndex = 0;
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -79,18 +82,19 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // Form2
+            // addTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Info;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(882, 403);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.comboBox1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "addTask";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Add A Task";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -102,7 +106,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox addTaskTextbox;
         private System.Windows.Forms.Button button2;
     }
 }

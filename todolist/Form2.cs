@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace todolist
 {
-    public partial class Form2 : Form
+    public partial class addTask : Form
     {
-        public Form2()
+        public addTask()
         {
             InitializeComponent();
         }
@@ -38,6 +38,11 @@ namespace todolist
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addTaskTextbox_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -1,0 +1,11 @@
+C:\Users\Jarrell\Documents\todolist\todolist\bin\Debug\todolist.exe.config
+C:\Users\Jarrell\Documents\todolist\todolist\bin\Debug\todolist.exe
+C:\Users\Jarrell\Documents\todolist\todolist\bin\Debug\todolist.pdb
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.csproj.AssemblyReference.cache
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.Form1.resources
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.Properties.Resources.resources
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.csproj.GenerateResource.cache
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.csproj.CoreCompileInputs.cache
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.exe
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.pdb
+C:\Users\Jarrell\Documents\todolist\todolist\obj\Debug\todolist.addTask.resources
